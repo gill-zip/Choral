@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>title</title>
+    <style>
+        /* change the background color */
+        .navbar-custom {
+            background-color: maroon;
+        }
+
+        /* change the brand and text color */
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: #ffcc00;
+           
+            
+        }
+
+        /* change the link color */
+        .navbar-custom .navbar-nav .nav-link {
+            color: white;
+            
+        }
+
+        /* change the color of active or hovered links */
+        .navbar-custom .nav-item.active .nav-link,
+        .navbar-custom .nav-item:focus .nav-link,
+        .navbar-custom .nav-item:hover .nav-link {
+            color: pink;
+            float: right;
+            
+            
+        }
+
+        .wide {
+            /*width: 100%; height: 10wv;*/
+        }
+
+        .red-text {
+            color: maroon;
+        }
+        
+        .jumbotron-padding {
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 0.5vw
+        }
+
+        .jumbotron-red {
+            background-color: maroon;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+        <div>
+        <nav class="navbar navbar-expand-sm navbar-custom navbar-dark fixed-top justify-content-end">
+            <a class="navbar-brand text-left mr-auto" href="#top"><img src="TopImages.png" style="height:60px; padding-right: 100%;">
+            </a><button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button"></button>
+            <div class="collapse navbar-collapse flex-grow-0" id="collapsibleNavbar">
+            <ul class="navbar-nav text-right">
+                <li class="nav-item"><a class="nav-link" href="#aboutus">About Us</a></li>
+                <li class="nav-item "><a class="nav-link" href="#concertsandevents">Concerts &amp; Events</a></li>
+                <li class="nav-item "><a class="nav-link " href="#members">Members</a></li>
+                <li class="nav-item "><a class="nav-link " href="#music">Music</a></li>
+                <li class="nav-item "><a class="nav-link " href="#contactus">Contact Us</a></li>
+            </ul>
+            </div>
+            </nav>
+        </div>
+        <div class="container-fluid mt-5">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8"></button>
+                </div>
+        
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="WideCeoOfSex.jpg" class="d-block w-100" alt="Slide 1">
+                        <div class="carousel-caption">
+                            <h5>Sorry about this one</h5>
+                            <p>Dont know why i made this one first.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image1.png" class="d-block w-100 wide" alt="Slide 2">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image2.png" class="d-block w-100 wide" alt="Slide 3">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image3.png" class="d-block w-100 wide" alt="Slide 4">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image4.png" class="d-block w-100 wide" alt="Slide 5">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image5.png" class="d-block w-100 wide" alt="Slide 6">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image6.png" class="d-block w-100 wide" alt="Slide 7">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image7.png" class="d-block w-100 wide" alt="Slide 8">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image8.png" class="d-block w-100 wide" alt="Slide 9">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Controls -->
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>   
+        <div class="jumbotron mt-4 p-3 rounded">
+
+            <marquee style="padding-top: 1vw;">
+                <h2 class="red-text"> New term starts Monday 4th September - new members welcome! </h2>
+            </marquee>
+            <h1 class="red-text text-center" style="padding-top: 0vw;">Welcome to the Oundle & District Choral Society</h1>
+            <p class="text-left jumbotron-padding">
+                We are a mixed voice choir who have been in existence for over 100 years. We draw our membership from a fairly wide rural area and currently have approximately seventy voices who meet for rehearsals <b>every Monday during term time.</b>
+            </p>
+            <p class="text-left jumbotron-padding">
+                Although we are an independent choral society, we have close links with Oundle School with whom we often perform and who regularly support our concerts.<b> Our rehearsals are held in Laxton Junior School Hall, East Road, Oundle, PE8 4BX, from 7.30pm until 9.30pm.</b>
+            </p>
+            <p class="text-left jumbotron-padding">There is no requirement to audition and all singers are made welcome no matter what skill level you have. We are grateful to Oundle Town Council for their continuing financial support but, much like most societies, we are a registered charity and are obliged to charge a subscription fee. However, don’t let that stop you from coming along to see if you like us!</p>
+            <p class="text-left jumbotron-padding">If you are interested in joining our society please contact us for more information by telephoning/emailing using the details below.</p>
+            <p class="text-left jumbotron-padding">Registered charity number: 1098947</p>
+
+        </div>  
+        <div class="jumbotron jumbotron-fluid bg-maroon mt-4 p-3 jumbotron-red text-center jumbotron-padding" style="padding-bottom: 2vw;">
+            <h2 style="padding-top: 2vw; padding-bottom: 1.5vw;">Previous Concerts and Events</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3"> <img class="img-fluid rounded" src="Poster1.png" style="width:80%"> </div>
+                    <div class="col-sm-3"> <img class="img-fluid rounded" src="Poster2.png" style="width:80%"> </div>
+                    <div class="col-sm-3"> <img class="img-fluid rounded" src="Poster3.png" style="width:80%"> </div>
+                    <div class="col-sm-3"> <img class="img-fluid rounded" src="Poster4.png" style="width:80%"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron-fluid mt-4 p-3 jumbotron-padding text-center">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4 class="red-text">Accompanist</h4>
+                    <h3 class="red-text">Elizabeth Arkell</h3>
+                    <br>
+                    <img class="img-fluid" src="Elizabeth.png" style="width: 80%; padding-bottom: 1vw;">   
+                    <br>
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Bio
+                    </button>
+                    
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                    
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">Elizabeth Arkell</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                    
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Elizabeth was a music scholar at Ardingly College and organ scholar at Sidney Sussex College, Cambridge, where she read for a degree in music. A Fellow of the Royal College of Organists, Elizabeth is an experienced organist and accompanist, having worked with many choirs and choral societies. Her career in music education has seen her teach in schools in Berkshire, Hampshire and Staffordshire, and she is currently Head of Academic Music and School Organist at Oundle School. Elizabeth is a senior examiner for Pearson GCSE Music and also an examiner for the ABRSM. Elizabeth has been Organist and Director of Music at St John’s in Peterborough since December 2014 and has accompanied Oundle and District Choral Society since 2017.
+                            </div>
+                    
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+                    
+                        </div>
+                        </div>
+                    </div>     
+
+                </div>
+                <div class="col-sm-4">
+                    <h2 class="red-text">Members</h2>
+                    <br>
+                    <br>
+                    <p><b>Chairman : Jane Piercy-Hughes</b> 
+                    <p><b>Treasurers: John Davies</b>
+                    <p><b>Secretary: Janet Ollerenshaw</b>
+                    <p><b>Legal: John Davies</b>
+                    <p><b>Website: Tessa Leuchars</b>
+                </div>
+                <div class="col-sm-4">
+                    <h4 class="red-text">Musical Director & Conductor</h4>
+                    <h3 class="red-text">Quentin Thomas</h3>
+                    <br>
+                    <img class="img-fluid" src="Quentin.png" style="width: 80%; padding-bottom: 1vw;">   
+                    <br>  
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Bio
+                    </button>
+                    
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal2">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                    
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">Quentin Thomas</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                    
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <p>
+                                Quentin Thomas was born into a musical family and became Head Chorister at Westminster Abbey singing for the daily services, many important occasions, recordings, films, tours, and was regularly called upon as a soloist, often recording with Deutsche Grammophon. He gained full scholarships to The King’s School Canterbury, then to Oxford University, to the Guildhall School of Music & Drama for post-graduate studies in Advanced Composition and then Conducting and Repetiteuring, and finally to the National Film & Television School to compose Screen Music. His four Masters’ Degrees and Associateship to the Royal College of Organists are indicative of his diverse interests across the music world that have encompassed composition, conducting, performing and music education.
+
+                                Quentin has toured extensively as a recitalist and accompanist on both piano and organ appearing in the BBC Proms, on Radio 3 and ClassicFM. He was for three years the invited organist and repetiteur for the European Union Youth Orchestra working closely with guests such as Vladimir Ashkenazy and Sir Colin Davis, and recorded Alison Balsom’s first CD (organ and trumpet) to wide acclaim with EMI.
+
+                                Composing hi-lights include two Oscar nominations in Hollywood’s Short Film category; being an in-house composer for a publisher whilst still at school; three operas, one opening a Deutsche Oper am Rhein, Dusseldorf season. He has written diverse works ranging from song cycles to orchestral works, sound designs to choral and dance works for leading artists and ensembles in most of the London major concert venues.
+
+                                As a conductor, Quentin has considerable experience in bringing the best out of semi-professional and amateur outfits, be they massed choruses, community choirs, orchestras or school ensembles. He has formed and run many a festival such as the Guildhall School’s Festival of Contemporary Music, and the St John’s Hyde Park Festival. He is presently a trustee of Creative Oundle.
+
+                                As an educationalist, Quentin has been Director of Music at Oundle since 2013. He was for eight years Director of Music at Haileybury, taking the choir to the finals of the BBC Songs of Praise Choir of the Year in the three times they entered the competition. Prior to this, he taught at the Yehudi Menuhin School and worked with the London Sinfonietta Education Programme.
+                                </p>
+                            </div>
+                    
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+                    
+                        </div>
+                        </div>
+                    </div>     
+
+                </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <br>
+                </div>
+                <div class="text-left col-sm-8">
+                    <h2 class="text-center">Why we enjoy singing with ODCS</h2>
+
+                    <blockquote class="blockquote">
+                        <p>I really like the guy who desgined this website, Leo Gill, He's so Smart, Handsome, talented and Modest, I Love Him!</p>
+                        <footer class="blockquote-footer">
+                            Her Late Majesty Queen Elizabeth the Second
+                        </footer>
+                    </blockquote>
+                    <blockquote class="blockquote">
+                        <pre>Im not Racist,                           But... [REDACTED]</pre>
+                        <footer class="blockquote-footer">
+                            [REDACTED]
+                        </footer>
+                    </blockquote>
+                    <blockquote class="blockquote">
+                        <p>You Know You F***** Up when the teacher asks you about your future</p>
+                        <footer class="blockquote-footer">
+                            Leo Gill
+                        </footer>
+                    </blockquote>
+
+               </div>
+               <div class="col-sm-2">
+                    <br>
+               </div>
+            </div> 
+        </div>
+</body>
+</html>
